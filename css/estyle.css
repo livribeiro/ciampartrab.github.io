@@ -1,0 +1,344 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    /*banner*/
+    
+    .areaImage {
+        background-image: url('../Imagens/logoc.jpg');
+        width: 100%;
+        height: 400px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    /*menu*/
+    
+    .menui .menu {
+        height: 6vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .conteudo {
+        width: 100%;
+        height: auto;
+        margin: 2px;
+        background-color: rgb(241, 225, 204);
+        border: rgb(228, 130, 98), 1px, solid;
+    }
+    /*lateral home*/
+    
+    #face {
+        padding-top: 1%;
+        margin-left: 7%;
+        width: 15%;
+        height: 50%;
+        position: relative;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        float: left;
+        background-color: rgb(241, 225, 204);
+    }
+    
+    #face h2 {
+        padding: 4%;
+        margin-top: -4%;
+        text-align: center;
+        color: rgb(228, 130, 98);
+        font-family: Arial;
+        font-size: large;
+        font-style: normal;
+        border-bottom: tomato 1px solid;
+        border-top: tomato 1px solid;
+    }
+    
+    #face2 {
+        margin-left: 1%;
+        padding: 0;
+        width: 20%;
+        height: auto;
+        background-color: rgb(241, 225, 204);
+        position: relative;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        float: left;
+        background-size: 350px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    #face2 img {
+        margin: 2%;
+        max-width: 360px;
+    }
+    
+    #face2 h2 {
+        padding: 4%;
+        margin-top: -4%;
+        text-align: center;
+        color: rgb(228, 130, 98);
+        font-family: Arial;
+        font-size: large;
+        font-style: normal;
+        border-bottom: tomato 1px solid;
+        border-top: tomato 1px solid;
+    }
+    
+    #conteudocentral h2 {
+        margin: 1%;
+        color: rgb(184, 49, 161);
+        font-family: Arial;
+        font-size: large;
+        font-style: normal;
+    }
+    /*conteudo central home*/
+    
+    #conteudocentral {
+        margin-left: 1%;
+        width: 50%;
+        height: 600px;
+        position: relative;
+        text-align: justify;
+        float: left;
+        background-image: url('../Imagens/webmar.jpg');
+        background-size: 500px;
+        background-repeat: no-repeat;
+        background-position: center;
+        text-align: center;
+        background-color: rgb(241, 225, 204);
+        flex-direction: row;
+        float: left;
+    }
+    
+    #conteudocentral h2 {
+        padding: 1%;
+        text-align: center;
+        color: rgb(228, 130, 98);
+        font-family: Arial;
+        font-size: large;
+        font-style: normal;
+        border-bottom: tomato 1px solid;
+        border-top: tomato 1px solid;
+    }
+    /*conteudo central quem somos*/
+    
+    #conteudocentralq {
+        padding: 1%;
+        margin-left: 15%;
+        width: 70%;
+        height: auto;
+        position: relative;
+        text-align: justify;
+    }
+    
+    #conteudocentralq h2 {
+        text-align: center;
+        margin-top: 30px;
+        color: rgb(228, 130, 98);
+        font-family: Arial;
+        font-size: medium;
+        font-style: normal;
+    }
+    
+    #conteudocentralq p {
+        margin: 6px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    #conteudocentralg {
+        padding: 1%;
+        margin-left: 15%;
+        width: 70%;
+        height: auto;
+        position: relative;
+        text-align: justify;
+    }
+    
+    #conteudocentralg h2 {
+        text-align: center;
+        margin-top: 30px;
+        color: rgb(228, 130, 98);
+        font-family: Arial;
+        font-size: medium;
+        font-style: normal;
+    }
+    
+    form {
+        position: relative;
+        margin: auto;
+        padding-left: 35%;
+    }
+    
+    form input {
+        width: 40%;
+        height: 25px;
+        border: tomato solid 1px;
+        text-decoration: rgb(149, 78, 114);
+    }
+    
+    #lmsg {
+        width: 40%;
+        height: 40px;
+    }
+    
+    #button {
+        width: 20%;
+        height: 40px;
+        background-color: tomato;
+        border: tomato;
+        border-radius: 10px;
+    }
+    
+    #conteudocentralg img {
+        margin: 2%;
+        width: 360px;
+        height: 260px;
+    }
+    /*conteudo menu*/
+    
+    .conteudo ul {
+        list-style: none;
+        position: relative;
+    }
+    
+    .conteudo a {
+        padding: 10px;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        color: rgb(149, 78, 114);
+        font-size: 20px;
+        font-family: 'Arial';
+    }
+    
+    #imageCont {
+        width: 100%;
+        height: 90%;
+    }
+    
+    #bt_menu:checked~.menu {
+        margin-left: 0;
+    }
+    
+    .menu ul {
+        list-style: none;
+        position: relative;
+    }
+    
+    .menu ul li {
+        width: 170px;
+        float: left;
+        background-color: rgba(250, 141, 107, 0.678);
+    }
+    
+    .menu a {
+        padding: 15px;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        color: rgb(104, 5, 74);
+        font-size: 20px;
+    }
+    
+    .menu ul ul {
+        position: absolute;
+        visibility: hidden;
+    }
+    
+    .menu ul li:hover ul {
+        visibility: visible;
+    }
+    
+    .menu a:hover {
+        background-color: rgb(235, 220, 212);
+    }
+    
+    .menu ul ul li {
+        float: none;
+    }
+    
+    .menu ul ul li a {
+        background-color: rgb(226, 193, 193);
+    }
+    
+    label[for="bt_menu"] {
+        background-color: rgb(226, 193, 193);
+        color: rgb(104, 5, 74);
+        font-family: 'Arial';
+        text-align: center;
+        cursor: pointer;
+        width: 50px;
+        height: 50px;
+    }
+    
+    #bt_menu {
+        display: none;
+    }
+    
+    label[for="bt_menu"] {
+        display: none;
+    }
+    
+    .rodape {
+        padding-top: 2%;
+        margin: auto;
+        width: 100%;
+        height: 80px;
+        font-display: unset;
+        font-family: 'Arial';
+        font-size: 12px;
+        text-align: center;
+        float: left;
+        background-image: url('../Imagens/rodape.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 200px;
+        background-position-y: bottom;
+        border-top: rgb(228, 130, 98) 1px solid;
+    }
+    
+    @media(max-width: 800px) {
+        .areaImage {
+            background-image: url('../Imagens/logoc.jpg');
+            background-size: 100%;
+            width: 100%;
+            height: 200px;
+        }
+        label[for="bt_menu"] {
+            display: block;
+            font-size: 40px;
+        }
+        .menu {
+            width: 100vw;
+            margin-top: 50px;
+            margin-left: -110%;
+            margin-right: 20%;
+            transition: all .4s;
+            font-size: 20px;
+        }
+        #bt_menu {
+            margin-left: 0;
+        }
+        .menui {
+            width: 100vw;
+            height: 30vh;
+        }
+        .menu ul li {
+            width: 100%;
+            float: none;
+        }
+        .menu ul ul {
+            position: static;
+            overflow: hidden;
+            max-height: 0;
+            transition: all .4s;
+        }
+        .menu ul li:hover ul {
+            height: auto;
+            max-height: 200px;
+        }
+    }
