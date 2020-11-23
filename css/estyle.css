@@ -88,6 +88,16 @@
         border-top: tomato 1px solid;
     }
     
+    #titulo {
+        padding: 4%;
+        margin-left: 43%;
+        text-align: center;
+        color: rgb(228, 130, 98);
+        font-family: Arial;
+        font-size: large;
+        font-style: normal;
+    }
+    
     #conteudocentral h2 {
         margin: 1%;
         color: rgb(184, 49, 161);
@@ -112,6 +122,17 @@
         background-color: rgb(241, 225, 204);
         flex-direction: row;
         float: left;
+    }
+    
+    textarea {
+        border: 1px solid rgb(228, 130, 98);
+        margin-left: 20%;
+        color: rgb(228, 130, 98);
+    }
+    
+    #h11 {
+        margin-left: 20%;
+        color: rgb(228, 130, 98);
     }
     
     #conteudocentral h2 {
@@ -186,8 +207,9 @@
     }
     
     #button {
-        width: 20%;
-        height: 40px;
+        width: 10%;
+        height: 30px;
+        margin-left: 20%;
         background-color: tomato;
         border: tomato;
         border-radius: 10px;
